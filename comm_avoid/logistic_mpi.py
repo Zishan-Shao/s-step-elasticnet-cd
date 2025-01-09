@@ -18,7 +18,7 @@ def main():
     if rank == 0:
         # Load dataset
         #file_path = "/Users/shaozishan/Desktop/Research/coordinate descent/colon-cancer.txt"
-        file_path = "/Users/shaozishan/Desktop/Research/coordinate descent/diabetes_scale.txt"
+        file_path = "/Users/shaozishan/Desktop/Research/coordinate descent/data/diabetes_scale.txt"
         X_list, y_list = [], []
         with open(file_path, 'r') as f:
             for line in f:
